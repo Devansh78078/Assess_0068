@@ -1,0 +1,97 @@
+This is the first line
+
+changes made in Sub_1
+
+
+ ls
+  502  pwd
+  503  mkdir Assess_0068
+  504  cd Assess_0068
+  505  mkdir Sub_1
+  506  mkdir Sub_2
+  507  vi .gitignore
+  508  vi hello.txt
+  509  vi hello.c
+  510  vi hello.html
+  511  git add .
+  512  git init
+  513  ls
+  514  git add .
+  515  git commit -m "First commit to all files"
+  516  git status
+  517  vi hello.txt
+  518  git add hello.txt
+  519  vi hello.html
+  520  git add .
+  521  git commit -m "Second commit only to html file"
+  522  vi hello.c
+  523  git add  .
+  524  git commit -m "Third commit only to c file"
+  525  cp Sub_1
+  526  ls
+  527  cp hello.txt Sub_1
+  528  cp hello.c Sub_1
+  529  cp hello.html Sub_1
+  530  cp hello.html Sub_2
+  531  cp hello.txt Sub_2
+  532  cp hello.c Sub_2
+  533  cp .gitignore Sub_2
+  534  cp .gitignore Sub_1
+  535  cd Sub_1
+  536  ls
+  537  vi .gitignore
+  538  vi hello.txt
+  539  git add .
+  540  git add hello.txt
+  541  git rm hello.c
+  542  git reset hello.c
+  543  git reset hello.html
+  544  git commit -m "Removed ignore for  txt files in Sub_1"
+  545  git add hello.txt
+  546  vi .gitignore
+  547  ls
+  548  cd ..
+  549  git add .gitignore
+  550  git commit -m "Removed ignore for .txt file"
+  551  cd  Sub_1
+  552  git add .gitignore
+  553  git commit -m "Removed ignore for .txt file"
+  554  git add .
+  555  git commit -m "Removed ignore for .txt file"
+  556  ls
+  557  git add hello.txt
+  558  vi .gitignore
+  559  cd ..
+  560  vi .gitignore
+  561  git add .gitignore
+  562  git commit -m "Removed ignore for txt file"
+  563  cd Sub_1
+  564  git add hello.txt
+  565  git status
+  566  git add hello.txt
+  567  vi screenshot
+  568  cd ..
+  569  cd Sub_2
+  570  vi screenshot.png
+  571  cd ..
+  572  cd Sub_1
+  573  cp screenshot.png Sub_1
+  574  cp screenshot.png Sub_2
+  575  cp screenshot.png Sub_2
+  576  vi screenshot.ong
+  577  vi screenshot.png
+  578  cd ..
+  579  cd Sub_2
+  580  vi image.png
+  581  vi image.png
+  582  cd ..
+  583  d cSub_!
+  584  cd Sub_1
+  585  vi screenshot.png
+  586  cd ..
+  587  cd Sub_2
+  588  vi image.png
+  589  git add .
+  590  git commit -mm "Made changes"
+  591  cd ..
+  592  cd Sub_1
